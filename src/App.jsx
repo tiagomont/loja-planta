@@ -1,5 +1,5 @@
 import Menu from "./components/Menu";
-import './assets/Css/App.css'
+import './assets/Css/App.scss'
 import AssinaturaNewsletter from "./components/AssinaturaNewsLetter";
 
 
