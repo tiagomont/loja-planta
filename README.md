@@ -1,21 +1,39 @@
-# Projeto de um E-commerce de planta
+<h1>Projeto de um E-commerce de Plantas</h1>
 
-Esse projeto esta sendo desenvolvido por mim atráves do desafio [#7DaysOfCode](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/).
-O Objetivo é criar [essa página](https://www.figma.com/design/0yOQR6fGtbdrmqeStiO0jf/7Days-React?node-id=0-1&node-type=canvas&t=mUwfhtndqnqkPjAj-0). Aqui também irei fazer um backlog do desenvolvimento e iniciei o projeto no dia 09/11/2024.
+<p>
+  Esse projeto esta sendo desenvolvido por mim (Tiago Monteiro) atráves do desafio <a href="https://7daysofcode.io/" target="_blank">#7DaysOfCode</a> da <a href="https://www.alura.com.br/" target="_blank">Alura</a>. 
+</p>
+<p>
+  O Objetivo é criar <a href="https://www.figma.com/design/0yOQR6fGtbdrmqeStiO0jf/7Days-React?node-id=0-1&node-type=canvas&t=mUwfhtndqnqkPjAj-0" target="_blank">essa página</a>. 
+  <br>Aqui também irei fazer um backlog do desenvolvimento do projeto. Iniciei o projeto no dia 09/11/2024.
+</p>
 
-## Tecnologias usadas:
 
-- [Vite + React](https://vite.dev/)
-- [npm](https://www.npmjs.com/)
-- [Sass](https://sass-lang.com/)
+<h2>Tecnologias usadas:</h2>
 
--------------------------------------
-## Backlog
+- <a href="https://vite.dev/" target="_blank">Vite + React</a>
+- <a href="https://www.npmjs.com/" target="_blank">npm</a>
+- <a href="https://sass-lang.com/" target="_blank">Sass</a>
 
-## Dia 1
+<hr>
 
-No primeiro dia eu iniciei o projeto como o npm, e o primeiro desafio foi fazer o **Menu** e a **Assinatura Newsletter** usando os componentes do React. Também iniciei a estilização da página usando o Sass.
+<h1>Backlog</h1>
 
--------------------------------------
+<h2>Dia 1</h2>
 
-Você pode ver o resultado do projeto até o momento clicando [aqui](https://tiagomont.github.io/loja-planta/).
+<p>
+  No primeiro dia eu iniciei o projeto como o <strong>npm</strong>, e o primeiro desafio foi fazer o <strong>Menu</strong> e a <strong>Assinatura Newsletter</strong> usando os componentes do <strong>React</strong>.
+</p>
+<p>
+  Primeiro eu fiz o componente <strong>Menu</strong> quebrando ele em 2 partes, o <strong>Menu</strong> em si e os <Strong>MenuItem's</Strong>. Logo em seguida eu fiz a estilização desses componentes e o corpo da página, inserindo a logo da loja e o background usando o <strong>Sass</strong> (pré-processador de CSS). 
+</p>
+<p>
+  Depois eu fiz a sessão <strong>Newsletter</strong> quebrando em 2 partes também, o <strong>Newsletter</strong> em si e o <strong>Form</strong> (formulário simples de inscrição de e-mail). E em seguida também fiz a estilização dessa sessão.
+</p>
+
+<hr>
+
+<footer>
+  <p>Você pode ver o resultado do projeto até o momento clicando <a href="https://tiagomont.github.io/loja-planta/" target="_blank">aqui</a>.</p>
+</footer>
+
