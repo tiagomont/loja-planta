@@ -12,13 +12,14 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    opacity: 50%;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -51,10 +52,12 @@ header {
         a {
             text-decoration: none;
             color: #000;
-        }
+            @include montserrat;
+            opacity: 100%;
 
-        a:hover {
-            text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -71,11 +74,61 @@ header {
     .sub-h1 {
         font-size: 22px;
         @include montserrat;
-        opacity: 50%;
     }
 
     .principal-h1 {
         font-size: 82px;
         @include elsie;
+    }
+
+    p {
+        margin-top: 25px;
+        @include montserrat;
+        line-height: 26px;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+
+    form {
+        position: relative;
+        margin-top: 25px;
+        box-shadow: 1px 4px 10px #0000001a;
+
+        div {
+            width: 585;
+            height: 55px;
+
+            label {
+                position: absolute;
+                top: 50%;
+                left: 12px;
+                transform: translateY(-50%);
+            }
+
+            input{
+                border: 0;
+                margin-left: 40px;
+                height: 100%;
+                width: 70%;
+
+                &:focus {
+                    outline: none;
+                }                
+            }
+
+            button {
+                position: absolute;
+                right: 0;
+                height: 100%;
+                background-color: #FFCB47;
+                padding: 0 20px;
+                color: #FFF;
+                border: none;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
     }
 }
