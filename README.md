@@ -31,6 +31,15 @@
   Depois eu fiz a sessão <strong>Newsletter</strong> quebrando em 2 partes também, o <strong>Newsletter</strong> em si e o <strong>Form</strong> (formulário simples de inscrição de e-mail). E em seguida também fiz a estilização dessa sessão.
 </p>
 
+<h2>Dia 2</h2>
+
+<p>
+  Hoje eu adicionei validação de email no formulário de inscrição da "Newsletter", usando React Hooks, especificamente o "useState".
+</p>
+<p>
+  A validação é feita de forma dinâmica conforme o usuário digita o e-mail no campo, logo em seguida, a validação é feita verificando se o campo está vazio ou se o e-mail está escrito de forma correta, se estiver aparece um alerta de que o e-mail foi cadastrado, se não, mostra ao usuário o que está errado.
+</p>
+
 <hr>
 
 <footer>
