@@ -8,6 +8,10 @@
   <br>Aqui também irei fazer um backlog do desenvolvimento do projeto. Iniciei o projeto no dia 09/11/2024.
 </p>
 
+<p>
+  Você pode ver o resultado do projeto até o momento clicando <a href="https://tiagomont.github.io/loja-planta/" target="_blank">aqui</a>.
+</p>
+
 
 <h2>Tecnologias usadas:</h2>
 
@@ -43,6 +47,6 @@
 <hr>
 
 <footer>
-  <p>Você pode ver o resultado do projeto até o momento clicando <a href="https://tiagomont.github.io/loja-planta/" target="_blank">aqui</a>.</p>
+  <p>Feito por <a href="https://tiagomonteiro.dev">Tiago Monteiro</a></p>
 </footer>
 
