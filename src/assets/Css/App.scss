@@ -116,6 +116,14 @@ header {
                 }                
             }
 
+            .error {
+                position: absolute;
+                z-index: 1;
+                color: red;
+                @include montserrat;
+                opacity: 100%;
+            }
+
             button {
                 position: absolute;
                 right: 0;
