@@ -38,11 +38,17 @@
 <h2>Dia 2</h2>
 
 <p>
-  Hoje eu adicionei validação de email no formulário de inscrição da "Newsletter", usando React Hooks, especificamente o "useState".
+  Hoje eu adicionei <strong>validação</strong> de email no formulário de inscrição da "Newsletter", usando <strong>React Hooks</strong>, especificamente o "useState".
 </p>
 <p>
-  A validação é feita de forma dinâmica conforme o usuário digita o e-mail no campo, logo em seguida, a validação é feita verificando se o campo está vazio ou se o e-mail está escrito de forma correta, se estiver aparece um alerta de que o e-mail foi cadastrado, se não, mostra ao usuário o que está errado.
+  A validação é feita de forma dinâmica conforme o usuário digita o e-mail no campo, logo em seguida, a validação é feita verificando se o campo está vazio ou se o e-mail está escrito de forma correta, se estiver correto aparece um alerta de que o e-mail foi cadastrado, se não, mostra ao usuário o que está errado (mensagem de erro).
 </p>
+<h3>Validação no React</h3>
+<p>A imagem abaixo mostra como eu fiz a validação de e-mail no React usando o React Hook</p>
+<img src="./src/assets/images/validacaojs.png">
+<h3>"HTML" do Formulário</h3>
+<p>Já nessa imagem mostra como ficou a parte "HTML" do formulário</p>
+<img src="./src/assets/images/formjs.png">
 
 <hr>
 
