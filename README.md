@@ -21,7 +21,7 @@
 
 <hr>
 
-<h1 style="margin-top: 40px;">Backlog</h1>
+<h1 style="margin-top: 40px;"> Daily Log</h1>
 
 <h2>Dia 1</h2>
 
