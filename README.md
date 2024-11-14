@@ -23,7 +23,7 @@
 
 <h1 style="margin-top: 40px;"> Daily Log</h1>
 
-<h2>Dia 1 (09/11)</h2>
+<h2>Dia 1</h2>
 
 <p>
   No primeiro dia eu iniciei o projeto com o <strong>npm</strong>, e o primeiro desafio foi fazer o <strong>Menu</strong> e a <strong>Assinatura Newsletter</strong> usando os componentes do <strong>React</strong>.
@@ -35,7 +35,7 @@
   Depois eu fiz a sessão Newsletter quebrando em 2 partes também, o Newsletter em si e o Form (formulário simples de inscrição de e-mail). E em seguida também fiz a estilização dessa sessão.
 </p>
 
-<h2>Dia 2 (10/11)</h2>
+<h2>Dia 2</h2>
 
 <p>
   Hoje eu adicionei <strong>validação</strong> de email no formulário de inscrição da "Newsletter", usando <strong>React Hooks</strong>, especificamente o "useState".
@@ -52,21 +52,6 @@
 <h3 style="text-align: center;">"HTML" do Formulário</h3>
 <p style="text-align: center;">Já nessa imagem mostra como ficou a parte "HTML" do formulário</p>
 <img src="./src/assets/images/formjs.png" style="width: 900px; display: block; margin: auto;">
-
-<h2>Dia 3 (13/11)</h2>
-
-<p>
-  Hoje eu fiz uma <strong>confirmação de e-mail</strong> da Newsletter usando uma <strong>API</strong> de envio de e-mail, o <strong>emailjs</strong>.
-</p>
-<p>
-  Primeiro eu configurei o <strong>dotenv</strong> para a segurança de dados sensiveis (tokes da API) e depois utilizei as variaveis de tokens no componente <strong>Form</strong>. Então utilizei as funções da API para inicializa-la e configura-la. Veja nas imagens a seguir:
-</p>
-<h3 style="text-align: center;">Definindo as Variáveis</h3>
-<img src="./src/assets/images/variaveis_api.png" style="width: 900px; display: block; margin: auto;">
-<h3 style="text-align: center;">Iniciando a API</h3>
-<img src="./src/assets/images/iniciando_api.png" style="width: 900px; display: block; margin: auto;">
-<h3 style="text-align: center;">Implementação da API</h3>
-<img src="./src/assets/images/funcoes_api.png" style="width: 900px; display: block; margin: auto;">
 
 <hr>
 
