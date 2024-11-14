@@ -1,7 +1,15 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Email from '../assets/images/email.png'
+import emailjs from '@emailjs/browser';
+import dotenv from 'dotenv'
 
 export default function Form() {
+    const public_key = import.meta.env.VITE_PUBLIC_KEY;
+    const service_id = import.meta.env.VITE_SERVICE;
+    const template_id = import.meta.env.VITE_TEMPLATE;
+
+    useEffect(() => { emailjs.init(public_key);});
+
     const [values, setValues] = useState({'email': ''});
     const [errors, setErrors] = useState({});
 
@@ -20,6 +28,14 @@ export default function Form() {
         if (Object.keys(validationErrors).length === 0) {
             alert(`Obrigado pela sua assinatura, você receberá nossas novidades no e-mail: ${values.email}`);
             setValues({'email': ''});
+
+            const templateParams = { to_email: values.email }; 
+            
+            emailjs.send(service_id, template_id, templateParams, public_key).then((response) => { 
+                console.log('E-mail enviado com sucesso!', response.status, response.text); 
+            }, (error) => { 
+                console.error('Erro ao enviar e-mail:', error); 
+            });
         };
     };
 
