@@ -50,7 +50,6 @@ export default function Form() {
 
 
     return (
-        <>
             <form>
                 <div>
                     <label htmlFor="email">
@@ -61,6 +60,5 @@ export default function Form() {
                     <button type="submit" onClick={handleSubmit}>Assinar Newsletter</button>
                 </div>
             </form>
-        </>
     );
 }
