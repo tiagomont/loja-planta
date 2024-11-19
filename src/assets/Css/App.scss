@@ -24,6 +24,7 @@
 
 body {
     background-image: url('../images/Back.png');
+    background-repeat: no-repeat;
 }
 
 main {
@@ -62,24 +63,35 @@ header {
     }
 }
 
+.principal-planta {
+    position: absolute;
+    width: 600px;
+    left: 600px;
+    top: -140px;
+    z-index: -1;
+}
+
+
+
+
     /* ==> Assinatura Newsletter <== */
 
 .assinatura-newsletter {
-    position: absolute;
     width: 585px;
     height: 462px;
-    top: 140px;
-    left: 140px;
+    margin-left: 140px;
+    margin-top: 50px; 
+
+    .principal-h1 {
+        font-size: 82px;
+        @include elsie;
+    }    
 
     .sub-h1 {
         font-size: 22px;
         @include montserrat;
     }
-
-    .principal-h1 {
-        font-size: 82px;
-        @include elsie;
-    }
+    
 
     p {
         margin-top: 25px;
@@ -136,6 +148,75 @@ header {
                 &:hover {
                     cursor: pointer;
                 }
+            }
+        }
+    }
+}
+
+    /* ==> Help <== */
+
+.help {
+    position: relative;
+    background-color: #FFF;
+    width: 840px;
+    height: 380px;
+    margin: 120px auto;
+    z-index: 1;
+    box-shadow: 2px 2px 15px #00000030;
+
+    .image-plant {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: url('../images/help-planta.png') no-repeat center center/cover;
+    }
+
+    .content-help {
+        position: absolute;
+        right: 0;
+        width: 50%;
+        padding-left: 25px;
+
+
+        .principal-h1 {
+            display: inline-block;
+            font-size: 42px;
+            @include elsie;
+            padding: 10px 0px;
+            
+        }    
+    
+        .sub-h1 {
+            display: inline-block;
+            font-size: 22px;
+            @include montserrat;
+            padding-top: 25px;
+        }
+
+        p {
+            line-height: 26px;
+            text-align: justify;
+            font-size: 1.2em;
+            padding-top: 25px;
+            // border: 1px solid #000;
+
+            .text {
+                @include montserrat;
+                display: inline-block;
+                font-size: 1.1em;
+                transform: translateY(-20px);
+            }
+
+            .ball {
+                // border: 1px solid #000;
+                display: inline-block;
+                width: 52px;
+                height: 52px;
+                border-radius: 50%;
+                background-color: #FFCB47;
+                margin: 0px 10px;
             }
         }
     }

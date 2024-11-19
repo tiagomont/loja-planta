@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import Email from '../assets/images/email.png'
 import emailjs from '@emailjs/browser';
-import dotenv from 'dotenv'
 
 export default function Form() {
     const public_key = import.meta.env.VITE_PUBLIC_KEY;
