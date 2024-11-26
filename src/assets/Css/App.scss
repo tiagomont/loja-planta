@@ -20,11 +20,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-}
+}  
 
 body {
     background-image: url('../images/Back.png');
     background-repeat: no-repeat;
+    overflow-x: hidden !important;
 }
 
 main {
@@ -66,7 +67,7 @@ header {
 .principal-planta {
     position: absolute;
     width: 600px;
-    left: 600px;
+    left: 520px;
     top: -140px;
     z-index: -1;
 }
